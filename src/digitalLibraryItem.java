@@ -20,6 +20,46 @@ public class digitalLibraryItem
         this.type = type;
         this.fileSize = fileSize;
     }
+
+    public String getTitle()
+    {
+        return title;
+    }
+
+    public void setTitle(String t)
+    {
+        title = t;
+    }
+
+    public String getCreator()
+    {
+        return creator;
+    }
+
+    public void setCreator(String c)
+    {
+        creator = c;
+    }
+
+    public String getType()
+    {
+        return type;
+    }
+
+    public void setType(String ty)
+    {
+        type = ty;
+    }
+
+    public double getFileSize()
+    {
+        return fileSize;
+    }
+
+    public void setFileSize(double f)
+    {
+        fileSize = f;
+    }
     public void displayInfo()
     {
         System.out.println("Title: "+title);
