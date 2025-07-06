@@ -1,9 +1,10 @@
 public class digitalLibraryItem
 {
-    public String title;
-    public String creator;
-    public String type;
-    public double fileSize;
+    // Fields made private to follow encapsulation principles
+    private String title;
+    private String creator;
+    private String type;
+    private double fileSize;
     digitalLibraryItem() // default constructor, default initialization takes place here when no arguments given
     {
         title = "";
