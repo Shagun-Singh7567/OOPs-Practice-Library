@@ -1,7 +1,7 @@
-public class book extends digitalLibraryItem  {
+public class Book extends digitalLibraryItem  {
 
     private int numberOfPages;
-    book(String title, String creator, String type, double fileSize, int numberOfPages)
+    Book(String title, String creator, String type, double fileSize, int numberOfPages)
     {
         super(title, creator, type, fileSize);
         this.numberOfPages = numberOfPages;
