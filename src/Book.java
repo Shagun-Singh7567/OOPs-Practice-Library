@@ -17,4 +17,11 @@ public class Book extends digitalLibraryItem  {
     {
         numberOfPages = n;
     }
+    
+    @Override
+    public void displayInfo()
+    {
+        super.displayInfo();
+        System.out.println("Number of pages: "+ numberOfPages);
+    }
 }
