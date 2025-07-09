@@ -1,3 +1,4 @@
+package items;
 public class digitalLibraryItem
 {
     // Fields made private to follow encapsulation principles
@@ -5,7 +6,7 @@ public class digitalLibraryItem
     private String creator;
     private String type;
     private double fileSize;
-    digitalLibraryItem() // default constructor, default initialization takes place here when no arguments given
+    public digitalLibraryItem() // default constructor, default initialization takes place here when no arguments given
     {
         title = "";
         creator = "";
@@ -13,7 +14,7 @@ public class digitalLibraryItem
         fileSize = -1;
     }
     
-    digitalLibraryItem(String title, String creator, String type, double fileSize)
+    public digitalLibraryItem(String title, String creator, String type, double fileSize)
     {
         this.title = title;
         this.creator = creator;
