@@ -1,4 +1,4 @@
-public class Book extends digitalLibraryItem  {
+public class Book extends DigitalLibraryItem  {
 
     private int numberOfPages;
     Book(String title, String creator, String type, double fileSize, int numberOfPages)
