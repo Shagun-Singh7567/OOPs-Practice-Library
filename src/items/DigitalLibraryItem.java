@@ -1,3 +1,4 @@
+package items;
 public class DigitalLibraryItem
 {
     // Fields made private to follow encapsulation principles

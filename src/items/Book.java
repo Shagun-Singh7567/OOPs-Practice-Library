@@ -1,3 +1,4 @@
+package items;
 public class Book extends DigitalLibraryItem  {
 
     private int numberOfPages;
