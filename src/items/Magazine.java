@@ -7,6 +7,16 @@ public class Magazine extends DigitalLibraryItem{
         this.edition = edition;
     }
 
+    public String getEdition()
+    {
+        return edition;
+    }
+
+    public void setEdition(String e)
+    {
+        edition = e;
+    }
+
     public void displayInfo()
     {
         super.displayInfo();

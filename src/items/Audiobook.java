@@ -9,6 +9,27 @@ public class Audiobook extends DigitalLibraryItem{
         this.durationInHours = durationInHours;
 
     }
+
+    public String getNarrator()
+    {
+        return narrator;
+    }
+
+    public void setNarrator(String n)
+    {
+        narrator = n;
+    }
+
+    public double getDurationInHours()
+    {
+        return durationInHours;
+    }
+
+    public void setDurationInHours(double d)
+    {
+        durationInHours = d;
+    }
+
     public void displayInfo()
     {
         super.displayInfo();
