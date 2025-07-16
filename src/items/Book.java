@@ -2,7 +2,8 @@ package items;
 public class Book extends DigitalLibraryItem implements Readable {
 
     private int numberOfPages;
-    Book(String title, String creator, String type, double fileSize, int numberOfPages)
+    public Book(String title, String creator, String type, double fileSize, int numberOfPages)
+    // changed accessibility to public to allow classes outside the package to access the constructor
     {
         super(title, creator, type, fileSize);
         this.numberOfPages = numberOfPages;
