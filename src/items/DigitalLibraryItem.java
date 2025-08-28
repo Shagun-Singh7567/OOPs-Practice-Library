@@ -14,6 +14,9 @@ public class DigitalLibraryItem
         fileSize = -1;
     }
     
+   
+    
+    
     public DigitalLibraryItem(String title, String creator, String type, double fileSize)
     {
         this.title = title;

@@ -26,7 +26,6 @@ public class Book extends DigitalLibraryItem implements Readable {
         super.displayInfo();
         System.out.println("Number of pages: "+ numberOfPages);
     }
-
     public void flipPage()
     {
         for(int i = 1; i <= numberOfPages; i++)
