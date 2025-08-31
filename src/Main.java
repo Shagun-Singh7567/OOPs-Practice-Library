@@ -17,6 +17,8 @@ public class Main
             case 'B':
                 System.out.println("Here is a list of all the books in the library currently: ");
                 Book newBook = new Book("1984", "George Orwell", "Book", 56, 500);
+                Book newBook2 = new Book("No longer human", "Osamu Dazai", "Book", 40, 300);
+
                 newBook.displayInfo();
                 
             case 'A':
